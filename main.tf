@@ -1,7 +1,10 @@
-terraform {
-  required_version = "> 0.12.0"
+provider "azurerm" {
+  version = "=1.44"
+}
 
+terraform {
   backend "azurerm" {
+
   }
 }
 
